@@ -1,12 +1,14 @@
 {
-  "generatedAt": "2026-09-16T15:49:23.054Z",
+  "generatedAt": "2026-09-16T16:14:15.624Z",
   "runtimeSource": "GITHUB_ACTIONS",
   "balances": {
     "base": {
       "status": "NOT_CONFIGURED"
     },
     "solana": {
-      "status": "NOT_CONFIGURED"
+      "status": "OK",
+      "balanceUSDC": "0.000000",
+      "meaning": "BALANCE_NOT_EARNINGS"
     }
   },
   "listings": {

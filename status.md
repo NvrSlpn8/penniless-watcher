@@ -1,11 +1,11 @@
 # Read-only earning watcher
 
-Generated: 2026-09-16T15:49:23.054Z
+Generated: 2026-09-16T16:14:15.624Z
 Runtime source: GITHUB_ACTIONS
 
 ## Balances
 - Base: NOT_CONFIGURED
-- Solana: NOT_CONFIGURED
+- Solana: 0.000000 USDC (balance, not income)
 
 Balances and baseline are not income. Verified earnings: NOT_VERIFIED.
 A human-attested payout receipt must attribute a transaction to a task.
