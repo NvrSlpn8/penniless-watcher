@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": ".github/workflows/agent.yml",
+      "size": 1461,
+      "sha256": "2aa111b5c4dbd974f9acdabf67d2369eb4e800144ab8ae1e06fe65b8a1e0c26a"
+    },
+    {
+      "path": ".gitignore",
+      "size": 84,
+      "sha256": "5f1d5d5d9c5496e9ffad64346a8c058b67f207e228d9e19b8a787c987828ca52"
+    },
+    {
+      "path": "agent.mjs",
+      "size": 10460,
+      "sha256": "130b624afc4015624e6e03923d2c5dee3f0b56aa8714aa8a23f107fca525f31b"
+    },
+    {
+      "path": "agent.test.mjs",
+      "size": 9480,
+      "sha256": "fa5639e314c7e06add84a9f90ac78525a260841fe635d7ea86ac65b8a73cff16"
+    },
+    {
+      "path": "config.json",
+      "size": 45,
+      "sha256": "faf20cd699832a1f1e6b269780eb2741195f272f50719f48967d0708dc8bfd70"
+    },
+    {
+      "path": "ledger.json",
+      "size": 24,
+      "sha256": "c93419b4d4f124d0149cf8190fcb85b41a69bb37239b6768c2d72bf416409764"
+    },
+    {
+      "path": "README.md",
+      "size": 6778,
+      "sha256": "748a3714d6db07d8bc8b2fc7a4eb585691abb7e5383176489e549ac46f2b52a2"
+    },
+    {
+      "path": "SOURCE-REVIEW.md",
+      "size": 3416,
+      "sha256": "4fc00956385388319863dc744715eb660161375aa421ec1dde145f05e474b708"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-16T15:48:32.734Z",
+  "runtimeSource": "LOCAL",
+  "balances": {
+    "base": {
+      "status": "NOT_CONFIGURED"
+    },
+    "solana": {
+      "status": "NOT_CONFIGURED"
+    }
+  },
+  "listings": {
+    "status": "OK",
+    "scope": "LIMITED_SLICE_MAX_50",
+    "items": [
+      {
+        "title": "Road to Colosseum Builders Reflect Share",
+        "url": "https://superteam.fun/earn/listing/road-to-colosseum-builders-reflect-and-share/",
+        "agentAccess": "AGENT_ALLOWED",
+        "deadline": "2026-10-12T16:59:00.000Z",
+        "potentialPotAmount": 1000,
+        "token": "USDC",
+        "classification": "POTENTIAL_ONLY"
+      },
+      {
+        "title": "Colosseum Crypto World's Fair Hackathon Superteam Vietnam Track",
+        "url": "https://superteam.fun/earn/listing/colosseum-crypto-worlds-fair-hackathon-superteam-vietnam-track/",
+        "agentAccess": "AGENT_ALLOWED",
+        "deadline": "2026-10-13T06:59:00.000Z",
+        "potentialPotAmount": 10000,
+        "token": "USDG",
+        "classification": "POTENTIAL_ONLY"
+      }
+    ]
+  },
+  "prs": [],
+  "earnings": {
+    "status": "NOT_VERIFIED",
+    "note": "Balances and baseline are not income. No human-attested payout receipt with transaction and task attribution has been verified."
+  }
+}

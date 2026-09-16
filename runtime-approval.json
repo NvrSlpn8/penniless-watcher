@@ -1,0 +1,7 @@
+{
+  "verdict": "INSTALL",
+  "runtime_manifest_sha256": "35e7d2d79956b59f4eaea9688e4fda7292d3a2e0b0fa371e45d4a99faee7c252",
+  "independent_review_sha256": "7c66877a4670ba2fa1962fca81d29d571ab25ebd70c770313d68799acbb95086",
+  "review_evidence": "penniless-review/runtime-review.md",
+  "note": "Manifest binds initial config/ledger too; changes require explicit revalidation."
+}

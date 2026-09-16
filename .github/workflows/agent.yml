@@ -1,0 +1,48 @@
+name: earning-agent
+
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earning-agent
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout reviewed code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Node runtime
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+      - name: Offline regression tests
+        run: node --test agent.test.mjs
+      - name: Read-only monitoring
+        env:
+          SUPERTEAM_API_KEY: ${{ secrets.SUPERTEAM_API_KEY }}
+        run: node agent.mjs
+      - name: Publish status summary
+        run: cat status.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit only generated status
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- status.md status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update read-only earning monitor status'
+            gh auth setup-git
+            git push "https://github.com/${REPOSITORY}.git" HEAD:main
+          fi
