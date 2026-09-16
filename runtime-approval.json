@@ -1,7 +1,16 @@
 {
   "verdict": "INSTALL",
-  "runtime_manifest_sha256": "35e7d2d79956b59f4eaea9688e4fda7292d3a2e0b0fa371e45d4a99faee7c252",
+  "runtime_manifest_sha256": "d9b5b175c9ee28a7ba447ddc705039f18300c61f5afc86474f9c51da9769a4ab",
   "independent_review_sha256": "7c66877a4670ba2fa1962fca81d29d571ab25ebd70c770313d68799acbb95086",
   "review_evidence": "penniless-review/runtime-review.md",
-  "note": "Manifest binds initial config/ledger too; changes require explicit revalidation."
+  "note": "Manifest binds initial config/ledger too; changes require explicit revalidation.",
+  "configuration_amendment": {
+    "previous_manifest_sha256": "35e7d2d79956b59f4eaea9688e4fda7292d3a2e0b0fa371e45d4a99faee7c252",
+    "authorized_change": "User-supplied Solana public receiving address; Base remains unset",
+    "changed_file": "config.json",
+    "runtime_code_workflow_tests_unchanged": true,
+    "validation": "32-byte base58 address; exact config schema; unchanged reviewed file parity",
+    "at": "2026-09-16T16:13:37.553558+00:00",
+    "review_scope": "Original independent runtime approval retained; this is an operator-validated configuration-only amendment, not a new independent review."
+  }
 }

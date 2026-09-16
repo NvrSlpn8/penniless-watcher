@@ -22,8 +22,8 @@
     },
     {
       "path": "config.json",
-      "size": 45,
-      "sha256": "faf20cd699832a1f1e6b269780eb2741195f272f50719f48967d0708dc8bfd70"
+      "size": 89,
+      "sha256": "41e8c0e2f096f80030f91640ec815866dacac6f9797de216c8c1ffe43b53915b"
     },
     {
       "path": "ledger.json",
