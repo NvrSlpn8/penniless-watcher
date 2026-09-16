@@ -1,7 +1,7 @@
 # Read-only earning watcher
 
-Generated: 2026-09-16T15:48:32.734Z
-Runtime source: LOCAL
+Generated: 2026-09-16T15:49:23.054Z
+Runtime source: GITHUB_ACTIONS
 
 ## Balances
 - Base: NOT_CONFIGURED

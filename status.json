@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T15:48:32.734Z",
-  "runtimeSource": "LOCAL",
+  "generatedAt": "2026-09-16T15:49:23.054Z",
+  "runtimeSource": "GITHUB_ACTIONS",
   "balances": {
     "base": {
       "status": "NOT_CONFIGURED"
