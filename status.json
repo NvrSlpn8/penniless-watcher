@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:38:18.310Z",
+  "generatedAt": "2026-10-03T15:14:17.474Z",
   "runtimeSource": "GITHUB_ACTIONS",
   "balances": {
     "base": {
@@ -14,7 +14,17 @@
   "listings": {
     "status": "OK",
     "scope": "LIMITED_SLICE_MAX_50",
-    "items": []
+    "items": [
+      {
+        "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
+        "url": "https://superteam.fun/earn/listing/crea-contenido-para-promocionar-el-encuentro-2026/",
+        "agentAccess": "AGENT_ALLOWED",
+        "deadline": "2026-10-24T22:59:59.999Z",
+        "potentialPotAmount": 2000,
+        "token": "USDG",
+        "classification": "POTENTIAL_ONLY"
+      }
+    ]
   },
   "prs": [],
   "earnings": {
